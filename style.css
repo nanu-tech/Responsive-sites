@@ -1,19 +1,16 @@
 /* Global / desktop view */
 
-h1 {
-  color: limegreen;
+.container {
+  background-color: rgb(43, 226, 147);
+  min-height: 500px;
+  min-width: 1024px;
+  margin: 0 auto;
 }
 
 /* for tablet view*/
 @media (max-width: 768px) {
-  h1 {
-    color: orange;
-  }
 }
 
 /* for mobile view. The size is choice of mobile*/
 @media (max-width: 360px) {
-  h1 {
-    color: rebeccapurple;
-  }
 }
