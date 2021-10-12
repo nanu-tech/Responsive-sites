@@ -1,0 +1,12 @@
+/* Global / desktop view */
+
+h1 {
+  color: limegreen;
+}
+
+/* for tablet view*/
+@media (max-width: 768px) {
+  h1 {
+    color: orange;
+  }
+}
