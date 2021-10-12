@@ -10,3 +10,10 @@ h1 {
     color: orange;
   }
 }
+
+/* for mobile view. The size is choice of mobile*/
+@media (max-width: 360px) {
+  h1 {
+    color: rebeccapurple;
+  }
+}
